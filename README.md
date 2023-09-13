@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, my name is Rubén Setien Fernández. I am a student of computer engineering and I study in "Universidad Europea del Atlántico" from Santander.
 
 <!--
 **rubensetien/RubenSetien** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
