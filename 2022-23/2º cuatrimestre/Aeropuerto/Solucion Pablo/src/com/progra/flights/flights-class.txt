@@ -1,0 +1,82 @@
+@startuml
+class com.progra.flights.Airline {
+  - int id
+  - String name
+  - String alias
+  - String iata
+  - String icao
+  - String callsign
+  - String country
+  - boolean active
+}
+class com.progra.flights.Route {
+  ~ int id
+  ~ String airline
+  ~ String Source
+  ~ String SourceAirportID
+  ~ String DestinationAirport
+  ~ String DestinationAirportID
+  ~ boolean Codeshare
+  ~ int Stops
+  ~ String Equipment
+}
+interface com.progra.flights.Manageable {
+  + void start()
+  + List<String> searchByCode(String)
+  + List<String> searchByName(String)
+  + List<Airline> searchByCountry(String)
+}
+class com.progra.flights.AirportManagement {
+  ~ ArrayList<Airport> airports
+  ~ ArrayList<Airline> airlines
+  ~ ArrayList<Route> routes
+  - void loadAirports()
+  - void loadAirlines()
+  - void loadRoutes()
+  + void start()
+  + List<String> searchByCode(String)
+  + List<String> searchByName(String)
+  + List<Airline> searchByCountry(String)
+}
+class com.progra.flights.ReadFile {
+  + List<String> loadSource(String)
+}
+class com.progra.flights.Airport {
+  - int id
+  - String name
+  - String iata
+  - String icao
+  - String city
+  - String country
+  - Coordinates position
+  + int getId()
+  + void setId(int)
+  + String getName()
+  + void setName(String)
+  + String getIata()
+  + void setIata(String)
+  + String getIcao()
+  + void setIcao(String)
+  + String getCity()
+  + void setCity(String)
+  + String getCountry()
+  + void setCountry(String)
+  + Coordinates getPosition()
+  + void setPosition(Coordinates)
+}
+class com.progra.flights.Coordinates {
+  - double latitude
+  - double longitude
+  + double getLatitude()
+  + void setLatitude(double)
+  + double getLongitude()
+  + void setLongitude(double)
+}
+
+com.progra.flights.AirportManagement  -- com.progra.flights.ReadFile : usa
+com.progra.flights.Manageable <|.. com.progra.flights.AirportManagement
+com.progra.flights.Airport "1" -- "1" com.progra.flights.Coordinates : posee
+com.progra.flights.AirportManagement "1"  o-- "*" com.progra.flights.Airport : contiene
+com.progra.flights.AirportManagement "1"  o-- "*" com.progra.flights.Route : contiene
+com.progra.flights.AirportManagement "1"  o-- "*" com.progra.flights.Airline : contiene
+@enduml
