@@ -2,5 +2,34 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Ahorcado" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Asteroides" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/CompaniaAseguradora" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Concurrencia" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/EX001PooStudent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/EX002UserManagement" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/EX003Inheritance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/EX004Exceptions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Ej Racionales" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Ejercicio Contador" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/ExParcialEj1Al" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Flights" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/FlightsAlfr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Futbol" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Geometria" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Hilos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/MaquinaExpenderodaClases" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Temperatura" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/Tetris" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/TetrisPrueba" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/TollSystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/WhashMachine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/clase7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/examen-Parcial-Ej2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/examen-Parcial-p1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/examen-Parcial.Ej1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/final-progra2-22-23" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/mundoAnimal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2022-23/2º cuatrimestre/whasingMachine" vcs="Git" />
   </component>
 </project>
